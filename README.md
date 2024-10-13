@@ -16,14 +16,14 @@ This repository contains 8 unique portfolio website templates, each designed to 
 
 ## Templates
 
-1. **Minimalist**: A clean, simple design focusing on content and whitespace.
-2. **Creative**: A bold, colorful template for artists and designers.
-3. **Professional**: A sleek, business-oriented template for a more corporate look.
-4. **Tech-focused**: A modern template with a techy feel, perfect for developers.
-5. **Photography**: A visually-driven template ideal for showcasing images.
-6. **Blog-style**: A template that combines portfolio elements with a blog layout.
-7. **Single-page**: A compact, scrollable design that fits all content on one page.
-8. **Interactive**: A template featuring animations and interactive elements.
+1. [Alex-Entrepreneur](https://mehannioui.github.io/cis102-portfolio/Alex-Entrepreneur/): A clean, simple design focusing on content and whitespace.
+2. [Emily-Software-Engineer](https://mehannioui.github.io/cis102-portfolio/Emily-Software-Engineer/): A bold, colorful template for artists and designers.
+3. [Emma-Economics](https://mehannioui.github.io/cis102-portfolio/Emma-Economics/): A sleek, business-oriented template for a more corporate look.
+4. [Emma-Economics-2](https://mehannioui.github.io/cis102-portfolio/Emma-Economics-2/): A modern template with a techy feel, perfect for developers.
+5. [John-Finance](https://mehannioui.github.io/cis102-portfolio/John-Finance/): A visually-driven template ideal for showcasing images.
+6. [Lea-StarWars](https://mehannioui.github.io/cis102-portfolio/Lea-StarWars/): A template that combines portfolio elements with a blog layout.
+7. [Lily-Art](./Lily-Art/): A compact, scrollable design that fits all content on one page.
+8. [Sara-Journalist](https://mehannioui.github.io/cis102-portfolio/Sara-Journalist/): A template featuring animations and interactive elements.
 
 Each template is located in its own directory within this repository.
 
