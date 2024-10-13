@@ -1,0 +1,264 @@
+/* Global Styles */
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --dark-color: #2c3e50;
+  --light-color: #ecf0f1;
+  --transition: all 0.3s ease;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: var(--dark-color);
+  margin: 0;
+  padding: 0;
+  background-color: var(--light-color);
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+  background: rgba(44, 62, 80, 0.9);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  padding: 15px 20px;
+}
+
+nav ul li a {
+  color: var(--light-color);
+  text-decoration: none;
+  font-weight: bold;
+  transition: var(--transition);
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: var(--secondary-color);
+}
+
+/* Hero Section */
+#hero,
+#projects-hero,
+#contact-hero {
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+  color: var(--light-color);
+  text-align: center;
+  padding: 150px 20px 100px;
+  margin-bottom: 50px;
+}
+
+#hero h1,
+#projects-hero h1,
+#contact-hero h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.project-info {
+  margin: 10px;
+}
+
+#hero h2 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+/* About Section */
+#about .about-content {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.profile-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Skills Section */
+#skills {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  padding: 50px 0;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.skill-item {
+  text-align: center;
+  margin: 20px;
+}
+
+.skill-item i {
+  font-size: 3em;
+  margin-bottom: 10px;
+  color: var(--secondary-color);
+}
+
+/* Projects Grid */
+#projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.project-card {
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* finish this css file based on the four files on this folder*/
+
+/* Contact Section */
+#contact {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+#contact-info {
+  margin-left: 10px;
+}
+
+#contact-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#contact-info li {
+  margin-bottom: 10px;
+}
+
+#contact-info i {
+  margin-right: 10px;
+}
+
+#contact-form {
+  margin-left: 10px;
+}
+
+#contact-form form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form form input,
+#contact-form form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#contact-form form button {
+  background: var(--primary-color);
+  color: var(--light-color);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#contact-form form button:hover {
+  background: var(--secondary-color);
+}
+
+/* Footer Styles */
+footer {
+  background: var(--dark-color);
+  color: var(--light-color);
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  margin: 0;
+  padding-left: 30px;
+}
+
+footer a {
+  color: var(--primary-color);
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  #about .about-content {
+    flex-direction: column;
+  }
+
+  .profile-img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+  #skills {
+    padding: 30px 0;
+  }
+
+  .skills-container {
+    flex-direction: column;
+  }
+
+  .skill-item {
+    margin: 10px 0;
+  }
+
+  #projects-grid {
+    padding: 0;
+  }
+
+  #projects-grid .project-card {
+    padding: 20px;
+  }
+}
