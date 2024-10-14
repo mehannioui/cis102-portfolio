@@ -33,7 +33,7 @@ To use these templates:
 
 1. Clone this repository to your local machine:
    ```
-   git clone https://github.com/your-username/cis102-portfolio-templates.git
+   git clone https://github.com/mehannioui/cis102-portfolio-templates.git
    ```
 2. Navigate to the template directory of your choice.
 3. Open the `index.html` file in your browser to view the template.
